@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database files
+*.db
+
+# Virtual environments (if applicable)
+venv/
+.env/
+
+# Docker-specific files
+*.pid
