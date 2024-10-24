@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light teal background for a fresh look */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Keep it white for contrast with background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #00796b; /* Darker teal to match background */
+}
+
+/* Form Section */
+.form-section {
+    margin-bottom: 20px;
+}
+
+/* Form Row Layout */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-col {
+    flex: 1;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input Fields */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+/* Textarea for JSON */
+textarea {
+    height: 150px;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b; /* Dark teal button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Result Section */
+.result-section {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #00796b; /* Teal border */
+    border-radius: 5px;
+    color: #00796b; /* Teal text */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Result Success and Failure */
+.result-true {
+    background-color: #e0f2f1; /* Lighter teal for success */
+    border-color: #00796b;
+    color: #00796b;
+}
+
+.result-false {
+    background-color: #ffebee; /* Light red for failure */
+    border-color: #f44336;
+    color: #f44336;
+}
