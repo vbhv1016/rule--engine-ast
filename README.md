@@ -80,3 +80,12 @@ This is a simple 3-tier rule engine application that determines user eligibility
 ## Predefined test cases:
 ### Run the tests or directly browse it on the web browser with the help of sample examples given below:
     python -m unittest discover tests
+
+
+## Docker Deployment
+### Build the Docker image:
+  docker-compose build
+### Run the application:
+  docker-compose up
+### Stop the application:
+  docker-compose down
